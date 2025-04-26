@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>   
+    
+    <table border="1" cellpadding="10px" cellspacing="10px" align="center">
+      
+        <tr>
+            <th  colspan="6"  id="display"></th>
+        </tr>
+        <tr>
+            <td onclick="allclear()" id="ac">AC</td>
+            <td onclick="call('()')" id="ac">(  ) </td>
+            <td onclick="call('%')"  id="ac" >%</td>
+            <td onclick="call('/')"  id="ac">/</td>
+        </tr>
+       
+        <tr>
+            <td onclick="call('7')" id="radius">7</td>
+            <td onclick="call('8')" id="radius">8</td>
+            <td onclick="call('9')" id="radius">9</td>
+            <td onclick="call('*')" id="ac">*</td>
+           
+        </tr>
+        <tr>
+            <td   onclick="call('4')" id="radius">4</td>
+            <td onclick="call('5')" id="radius">5</td>
+            <td onclick="call('6')" id="radius">6</td>
+            <td onclick="call('-')" id="ac">-</td>
+           
+          
+        </tr>
+        <tr> 
+            <td onclick="call('1')" id="radius">1</td>
+            <td onclick="call('2')" id="radius">2</td>
+            <td  onclick="call('3')" id="radius">3</td> 
+            <td onclick="call('+')"  id="ac">+</td>
+           
+        </tr>
+        
+        <tr>
+            <td onclick="call('00')" id="radius">0</td>
+            <td onclick="call('.')" id="radius">.</td>
+            <td onclick="del()" id="radius">Del</td>
+            <td onclick="result()" id="ac" >=</td>
+
+        </tr>
+
+    </table>
+    <script src="calculator.js"></script>
+</body>
+</html>
